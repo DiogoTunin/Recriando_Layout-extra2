@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+
+    background-color: #2F2E41;
+    flex-shrink: 0;
+}
+
+/*
+
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+*/
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 64px;
+    margin: 0;
+    padding: 0px;
+    font-family: 'JetBrains Mono', monospace;
+    list-style: none;
+    color: #FFFFFF;
+
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+.page {
+    width: 1280px;
+    margin: 0 auto;    
+    padding-top: 65px;
+}
+
+h1,p{
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+p{
+    color: #7D7987;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+main{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    margin-top: 101px;
+
+
+    display: flex;
+}
+
+section{
+    width: 604px;
+}
+
+span{
+    font-family: 'Open Sans', sans-serif;
+    color: #00BFA6;
+}
+
+strong{
+    color: #C2C2C2;
+}
+
+footer{
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    border-top: 3px solid #00BFA6;
+    margin: 167px auto 0;
+    width: 500px;
+
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+
+}
+
+#cadeado{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+}
